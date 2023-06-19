@@ -7,6 +7,6 @@ mkdir dotnet && cd dotnet
 tar -xf ../dotnet-runtime-6.0.16-linux-arm64.tar.gz
 cd ..
 chmod u+x dotnet/dotnet
-wget "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.4.7/depotdownloader-2.4.7.zip"
+wget "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.5.0/depotdownloader-2.5.0.zip"
 mkdir depotdownloader && cd depotdownloader
-unzip ../depotdownloader-2.4.7.zip
+unzip ../depotdownloader-2.5.0.zip
