@@ -21,7 +21,7 @@ Try again run ``./installproot.sh``
 **If you get paused by that message "Configuration file '/data/data...."**
 
 Just press enter at everything else.
-## Run the PRoot debian, download and run the DepotDownloader
+## Run the PRoot Debian, download and run the DepotDownloader
 ```bash
 proot-distro login debian
 ```
