@@ -1,10 +1,10 @@
 
-## Install Termux from Github or F-droid to replace outdated Google Play Store version
+## Install Termux from Github or F-Droid to replace outdated Google Play Store version
  - Github(choose the right architecture or use ``universal``): https://github.com/termux/termux-app/releases/latest
  - F-Droid: https://f-droid.org/en/packages/com.termux
 ## Download and run a script for Termux.
 ```bash
-curl "https://raw.githubusercontent.com/TheKingFireS/TermuxDepotdownloader/main/installproot.sh" -o installproot.sh
+curl "https://raw.githubusercontent.com/TheKingFireS/TermuxDepotDownloader/main/installproot.sh" -o installproot.sh
 chmod +x installproot.sh
 ./installproot.sh
 ```
@@ -21,23 +21,23 @@ Try again run ``./installproot.sh``
 **If you get paused by that message "Configuration file '/data/data...."**
 
 Just press enter at everything else.
-## Run the PRoot debian, download and run the Depotdownloader
+## Run the PRoot debian, download and run the DepotDownloader
 ```bash
 proot-distro login debian
 ```
-**Now, download and run the Depotdownloader script for ARM 64bit devices.**
+**Now, download and run the DepotDownloader script for ARM 64bit devices.**
 ```bash
-curl "https://raw.githubusercontent.com/TheKingFireS/TermuxDepotdownloader/legacy/installdepotdownloader64.sh" -o installdepotdownloader64.sh
+curl "https://raw.githubusercontent.com/TheKingFireS/TermuxDepotDownloader/legacy/installdepotdownloader64.sh" -o installdepotdownloader64.sh
 chmod +x installdepotdownloader64.sh
 ./installdepotdownloader64.sh
 ```
 **or for ARM 32bit devices.**
 ```bash
-curl "https://raw.githubusercontent.com/TheKingFireS/TermuxDepotdownloader/legacy/installdepotdownloader32.sh" -o installdepotdownloader32.sh
+curl "https://raw.githubusercontent.com/TheKingFireS/TermuxDepotDownloader/legacy/installdepotdownloader32.sh" -o installdepotdownloader32.sh
 chmod +x installdepotdownloader32.sh
 ./installdepotdownloader32.sh
 ```
-## Using of Depotdownloader
+## Using of DepotDownloader
 **Now, enter the depotdownloader directory by run that command**
 ```bash
 cd depotdownloader
