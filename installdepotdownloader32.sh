@@ -2,7 +2,7 @@
 # Only use this if you're in PRoot.
 apt update && apt full-upgrade -y
 apt install wget libicu72 -y
-wget "https://download.visualstudio.microsoft.com/download/pr/7039aeff-2d14-46b3-a560-e5af5591d6c6/3cb3a4aae10e161413fda1100007551a/dotnet-runtime-6.0.16-linux-arm.tar.gz"
+wget "https://download.visualstudio.microsoft.com/download/pr/7853dcac-adfa-4cf4-8131-ee38c0962267/8bff8be2972a7894fd699a5bbc92b467/dotnet-runtime-6.0.18-linux-arm.tar.gz"
 mkdir dotnet && cd dotnet
 tar -xf ../dotnet-runtime-6.0.16-linux-arm.tar.gz
 cd ..
