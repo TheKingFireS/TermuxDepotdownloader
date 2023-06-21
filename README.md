@@ -67,15 +67,7 @@ export COMPlus_EnableDiagnostics=0
 After done edit file, save and close file in Nano:
 First, press CTRL+o, then press Enter and last, press CTRL+x.
 
-## Create link PRoot directory for Android file manager.
-**to exit PRoot**
-
-``exit``
-
-**to create link directory**
-```bash
-ln -s /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/debian/root/ /data/data/com.termux/files/home/droot
-```
+## Opening PRoot directory using Android file manager.
 **to open Android file manager**
 
 Marc apps & software's Files: https://play.google.com/store/apps/details?id=com.marc.files
